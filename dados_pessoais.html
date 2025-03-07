@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados Pessoais</title>
+    <style>
+        aside {
+            margin-bottom: 15%;
+
+        }
+    </style>
 </head>
+
 <body>
     <article>
         <h1>Giovanna dos Santos</h1>
@@ -25,37 +33,42 @@
             <h2>Experiencias profissionais</h2>
             <ul>
                 <li>
-                    <h3>Atendente de caixa - PROGRIDA SERVIÇOS</h3>
-                    <p>atendimento ao cliente na linha 9 lilás do metrô de São Paulo</p>
-                    <p>out/2024 - Atual</p></li>
+                    <h3>Atendente de caixa - PROGRIDA SERVIÃ‡OS</h3>
+                    <p>atendimento ao cliente na linha 9 lilÃ¡s do metrÃ´ de SÃ£o Paulo</p>
+                    <p>out/2024 - Atual</p>
+                </li>
             </ul>
         </section>
 
 
         <section class="info">
-            <h2>Formação academica</h2>
+            <h2>FormaÃ§Ã£o academica</h2>
             <ul>
-                <li><h3>Análise e Desenvolvimento de Sistemas</h3>
-                    <p>SENAC</p> 
-                    <p>2024 - Em andamento </p>             
+                <li>
+                    <h3>AnÃ¡lise e Desenvolvimento de Sistemas</h3>
+                    <p>SENAC</p>
+                    <p>2024 - Em andamento </p>
                 </li>
 
-                <li><h3>Inglês básico</h3>
+                <li>
+                    <h3>InglÃªs bÃ¡sico</h3>
                     <p>Wizard idiomas</p>
                     <p>2015</p>
                 </li>
-                
-                <li><h3>Inglês Intermediário</h3>
-                    <p>Nossa Senhora de Fátima</p>
+
+                <li>
+                    <h3>InglÃªs IntermediÃ¡rio</h3>
+                    <p>Nossa Senhora de FÃ¡tima</p>
                     <p>2019</p>
                 </li>
-                
-                <li><h3>Administração, Logística, Gestão de RH e Marketing</h3>
+
+                <li>
+                    <h3>AdministraÃ§Ã£o, LogÃ­stica, GestÃ£o de RH e Marketing</h3>
                     <p>FMU - Projeto Qualifica</p>
                     <p>2023</p>
                 </li>
             </ul>
-            
+
         </section>
 
 
@@ -63,38 +76,88 @@
             <h2>Conhecimentos</h2>
             <ul>
                 <li>Photoshop</li>
-                <li>Ilustração</li>
-                <li>Design gráfico</li>
+                <li>IlustraÃ§Ã£o</li>
+                <li>Design grÃ¡fico</li>
                 <li>Java</li>
                 <li>C</li>
             </ul>
-        
+
         </section>
 
 
         <section class="info">
+
             <h2>Idiomas</h2>
+
             <table>
                 <thead>
-                <tr>
-                    <th></th>
-                    <th>Leitura</th>
-                    <th>Escrita</th>
-                    <th>Conversação</th>
-                </tr>
+                    <tr>
+                        <th></th>
+                        <th>Leitura</th>
+                        <th>Escrita</th>
+                        <th>ConversaÃ§Ã£o</th>
+                    </tr>
                 </thead>
 
                 <tbody>
+
                     <tr>
-                        <th>Inglês</th>
+                        <th>InglÃªs</th>
                         <td>Bom</td>
                         <td>Bom</td>
                         <td>Bom</td>
                     </tr>
-                </tbody>
-            </table>
-        </section>
 
+                </tbody>
+
+            </table>
+
+        </section>
     </article>
+
+    <hr>
+
+    <aside>
+        <section>
+            <h2>Entre em Contato</h2>
+            <form>
+                <div>
+                    <label for="nomeCompleto"> Nome Completo </label>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto">
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="email"> Email </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="telefone"> Telefone </label>
+                    <input type="number" id="telefone" name="telefone">
+                </div>
+                
+                <br>
+
+                <div>
+                    <label for="mensagem"> Mensagem </label>
+                   <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+        
+            </form>
+        </section>
+    </aside>
+
 </body>
+
 </html>
